@@ -1,0 +1,14 @@
+{
+  "Create Function for Algorithm Test": {
+    "prefix": "cfat",
+    "body": [
+      "// 문제 : ",
+      "",
+      "function solve() {",
+      "  let result;",
+      "  return result",
+      "}"
+    ],
+    "description": "Create function for algorithm test"
+  }
+}
