@@ -2,6 +2,7 @@
 - 코딩 테스트를 대비하여 공부하고 기록하는 공간입니다
 
 ## 로그
+- [2024.03.09] 12. Move Zeroes (leetCode 283)
 - [2024.03.05] 11. 가장 긴 접두사 (Longest Common Prefix)
 - [2024.03.03] 10. 하노이의 탑 (Permutations)
 - [2024.02.29] 09. 순열 (Permutations)
