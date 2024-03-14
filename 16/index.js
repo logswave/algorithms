@@ -7,4 +7,8 @@ function solve(str) {
 
     return str.split("").sort((a, b) => b.charCodeAt(0) - a.charCodeAt(0)).join("");
 }
+
+function solve2(str) {
+    return str.split("").sort().reverse().join("");
+}
 console.log(solve('Zbcdefg'))
