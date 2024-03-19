@@ -123,3 +123,15 @@ console.log(solve5("aAb1B2cC34oOp0123a"))
 // "aAb1B2cC34oOp0123"
 // 위 처럼 문자열의 마지막이 문자가 아닌 0으로 시작하는 숫자에 대한 케이스가 존재하지 않았다.
 // 질문하기란에 글을 기재하긴 했으나.. 누가 보겠냐만 이번 문제는 이렇게 마무리했다.
+// ps : 조건을 제대로 안읽어봤다 0으로 선행하는 숫자는 없다!
+function solve6(str) {
+    let result = 0;
+
+    const i = str.split("").reduce((acc, cur) => {
+        if (parseInt(cur) >= 0) return acc += cur
+        else if (acc > 0) result += parseInt(acc)
+        return ''
+    }, '')
+    if (i > 0) result += parseInt(i)
+    return result || 0
+}
