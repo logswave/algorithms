@@ -39,3 +39,18 @@ function solve3(n) {
 console.log(solve2(5))
 
 // 소수점에 대한 예외처리
+
+// 문제를 풀고 다른 사람 풀이를 참고했다.
+
+function solve4(n) {
+    var answer = 0;
+    for (i = 2; i <= n; i += 2) {
+        answer += i
+    }
+    return answer;
+}
+// ...
+// 내 풀이는 상당히 멍청했다.
+// 이정도면 억지로 꼬아서 푼 사람인 것 같다.
+// 제발 쉽게 생각하자 제발.
+// 아니 쉽게 푸는 것 같다면 그 사람이 잘하는 걸 지도..
