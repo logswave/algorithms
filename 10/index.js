@@ -34,14 +34,15 @@ function solution(n) {
 // 한참을 고민한 끝에 결국 블로그를 참조했다.
 
 function solve2(n) {
+    const result = []
     const move = (n, from, to) => {
-        console.log(n, '번원반을 ', from, '에서', to, '로 이동')
+        result.push([from, to])
     }
     // from a
     // via b
     // to c
     const hanoi = (n, from, to, via) => {
-        console.log(n, from, to, via)
+        // console.log(n, from, to, via)
         if (n === 1) {
             move(n, from, to)
         } else {
@@ -50,9 +51,10 @@ function solve2(n) {
             hanoi(n - 1, via, to, from) // point 3
         }
     }
-    return hanoi(n, 'a', 'c', 'b')
+    hanoi(n, 1, 3, 2)
+    return result
 }
-console.log(solve2(3))
+console.log(solve2(2))
 // 결과는 경이로웠다.
 // 분명 복잡한 구조였고 패턴이 잘 보이지 않는 다고 생각했는데 그에 비해 너무도 처참하게 간결한 코드였다.
 
