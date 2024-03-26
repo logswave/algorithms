@@ -2,6 +2,7 @@
 - 문제 해결 능력 향상을 위한 알고리즘 스터디
 
 ## 히스토리
+- **21.** [배열의 평균값 (programmers)](https://github.com/logwaves/algorithms/blob/main/21/index.js) - [2024.03.26]
 - **20.** [짝수의 합 (programmers)](https://github.com/logwaves/algorithms/blob/main/20/index.js) - [2024.03.19]
 - **19.** [숨어있는 숫자의 덧셈 2 (programmers)](https://github.com/logwaves/algorithms/blob/main/19/index.js) - [2024.03.17]
 - **18.** [합성수 찾기 (programmers)](https://github.com/logwaves/algorithms/blob/main/18/index.js) - [2024.03.17]
