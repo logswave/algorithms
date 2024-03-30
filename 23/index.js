@@ -13,19 +13,27 @@
 // "abcdef"	"f"	"abcde"
 // "BCBdbe"	"B"	"Cdbe"
 function solve(my_string, letter) {
-    // 문자열을 배열로 변환
     let charArray = my_string.split("");
-
-    // 문자열에서 해당 문자를 찾아 제거
     for (let i = 0; i < charArray.length; i++) {
         if (charArray[i] === letter) {
             charArray.splice(i, 1);
-            i--; // splice()로 요소를 제거하면 배열의 인덱스가 변경되므로 i를 감소시켜야 합니다.
+            i--;
         }
     }
-
-    // 제거된 문자열을 다시 문자열로 결합하여 반환
     return charArray.join("");
+}
+
+console.log(solve('abcdef', 'f'));
+
+function solve2(my_string, letter) {
+    const str = my_string.split("")
+    const result = []
+    for (let i = 0; i < str.length; i++) if (str[i] !== letter) result.push(str[i])
+    return result.join("")
+}
+
+function solve3(my_string, letter) {
+    return my_string.split("").filter((el) => el !== letter).join("")
 }
 
 console.log(solve('abcdef', 'f'));
