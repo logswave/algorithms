@@ -2,6 +2,7 @@
 - 문제 해결 능력 향상을 위한 알고리즘 스터디
 
 ## 히스토리
+- **25.** [연속된 수의 합 (programmers)](https://github.com/logwaves/algorithms/blob/main/25/index.js) - [2024.04.04]
 - **24.** [분수의 덧셈 (programmers)](https://github.com/logwaves/algorithms/blob/main/24/index.js) - [2024.04.02]
 - **23.** [특정 문자 제거 (programmers)](https://github.com/logwaves/algorithms/blob/main/23/index.js) - [2024.03.27]
 - **22.** [음식 값 계산 (programmers)](https://github.com/logwaves/algorithms/blob/main/22/index.js) - [2024.03.26]
