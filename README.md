@@ -2,7 +2,8 @@
 - 문제 해결 능력 향상을 위한 알고리즘 스터디
 
 ## 히스토리
-- **28.** [최빈값 (programmers)](https://github.com/logwaves/algorithms/blob/main/27/index.js) - [2024.04.08]
+- **29.** [다항식 더하기 (programmers)](https://github.com/logwaves/algorithms/blob/main/29/index.js) - [2024.04.10]
+- **28.** [최빈값 (programmers)](https://github.com/logwaves/algorithms/blob/main/28/index.js) - [2024.04.08]
 - **27.** [OX 퀴즈 (programmers)](https://github.com/logwaves/algorithms/blob/main/27/index.js) - [2024.04.06]
 - **26.** [다음에 올 수 (programmers)](https://github.com/logwaves/algorithms/blob/main/26/index.js) - [2024.04.06]
 - **25.** [연속된 수의 합 (programmers)](https://github.com/logwaves/algorithms/blob/main/25/index.js) - [2024.04.04]
