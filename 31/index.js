@@ -12,5 +12,21 @@
 // "apple"	"elppa"	-1
 // "atat"	"tata"	1
 // "abc"	"abc"	0
-function solve() {
+function solve(A, B) {
+    let array = A.split("")
+    let result = -1
+    if (A == B) return 0
+    for (let i = 1; i < array.length; i++) {
+        array.unshift(array.pop())
+        A = array.join("")
+        if (A === B) return i
+    }
+    return result
 }
+console.log(solve('hello', 'ohell'))
+
+// 자바스크립트 배열 메서드 unshift pop 을 활용해서 떼어내고 붙히기를 수행했다.
+// 그리고 다른 풀이를 보고 현타가 왔다.
+let solution = (a, b) => (b + b).indexOf(a)
+// b 두개를 이어붙히고 최초로 나오는 a 의 자리수를 찾는 코드.. 영리하다.
+// 이렇게 하면 for loop 으로 반복문마다 배열 뒷자리르 떼고 앞에 붙히는 과정을 할 필요가 없다.
