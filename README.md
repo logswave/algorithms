@@ -2,7 +2,8 @@
 - 문제 해결 능력 향상을 위한 알고리즘 스터디
 
 ## 히스토리
-- **31.** [문자열 밀기(programmers)](https://github.com/logwaves/algorithms/blob/main/31/index.js) - [2024.04.14]
+- **32.** [겹치는 선분의 길이 (programmers)](https://github.com/logwaves/algorithms/blob/main/32/index.js) - [2024.04.17]
+- **31.** [문자열 밀기 (programmers)](https://github.com/logwaves/algorithms/blob/main/31/index.js) - [2024.04.14]
 - **30.** [특이한 정렬 (programmers)](https://github.com/logwaves/algorithms/blob/main/30/index.js) - [2024.04.11]
 - **29.** [다항식 더하기 (programmers)](https://github.com/logwaves/algorithms/blob/main/29/index.js) - [2024.04.10]
 - **28.** [최빈값 (programmers)](https://github.com/logwaves/algorithms/blob/main/28/index.js) - [2024.04.08]
