@@ -31,12 +31,11 @@ function solve(lines) {
     let min = Math.min.apply(null, lines.flat());
     let arr = new Array(max - min).fill(0)
     // 최대 최소값을 구해서 편차만큼의 배열을 생성
-    lines.forEach(el => {
-        for (let i = el[0]; i < el[1]; i++) {
-            arr[i - min] += 1
+    for (let i = 0; i < lines.length; i++) {
+        for (let j = lines[i][0]; j < lines[i][1]; j++) {
+            arr[j - min] += 1
         }
-    })
+    }
     return arr.reduce((a, c) => c > 1 ? a + 1 : a, 0);
 }
 console.log(solve([[0, 2], [-3, -1], [-2, 1]]))
-// ㅇ? [1,2][2,3][3,4] 반례 아닌가?
