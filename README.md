@@ -2,6 +2,8 @@
 - 문제 해결 능력 향상을 위한 알고리즘 스터디
 
 ## 히스토리
+- **37.** [치킨 쿠폰 (programmers)](https://github.com/logwaves/algorithms/blob/main/37/index.js) - [2024.04.21]
+- **36.** [등수 매기기 (programmers)](https://github.com/logwaves/algorithms/blob/main/36/index.js) - [2024.04.21]
 - **35.** [유한소수 판별하기 (programmers)](https://github.com/logwaves/algorithms/blob/main/35/index.js) - [2024.04.21]
 - **34.** [옹알이 (programmers)](https://github.com/logwaves/algorithms/blob/main/34/index.js) - [2024.04.19]
 - **33.** [평행 (programmers)](https://github.com/logwaves/algorithms/blob/main/33/index.js) - [2024.04.19]
