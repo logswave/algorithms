@@ -16,7 +16,12 @@ function solve(chicken) {
         service += parseInt(coupon / 10) // 108 118
         coupon = parseInt(coupon % 10 + coupon / 10) // 19
     }
-    return service
+    return parseInt(chicken * 0.11111)
 }
 
 console.log(solve(1081))
+// 다른 풀이를 참고했다.
+// 짧은코드로 풀어낸 사람들은 주문한 치킨 수 / 서비스 = 11.1111111% 라는 점을 활용해서 풀었다.
+// 이런 식으로 말이지
+
+const solve2 = (chicken) => parseInt(chicken * 0.1111111111)
