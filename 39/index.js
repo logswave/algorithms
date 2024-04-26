@@ -32,3 +32,11 @@ function solve(id_pw, db) {
     return "fail"
 }
 console.log(solve(["rabbit04", "98761"], [["jaja11", "98761"], ["krong0313", "29440"], ["rabbit00", "111333"]]))
+
+// 다른 풀이
+function solution(id_pw, db) {
+    const [id, pw] = id_pw;
+    const map = new Map(db);
+    return map.has(id) ? (map.get(id) === pw ? 'login' : 'wrong pw') : 'fail';
+}
+// 맵객체를 이용하여 풀어냈다.
