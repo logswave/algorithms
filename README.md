@@ -2,6 +2,7 @@
 - 문제 해결 능력 향상을 위한 알고리즘 스터디
 
 ## 히스토리
+- **42.** [직사각형 넓이 구하기 (programmers)](https://github.com/logswave/algorithms/blob/main/42/index.js) - [2024.05.06]
 - **41.** [신규 아이디 추천 (2021 KAKAO BLIND RECRUITMENT)](https://github.com/logswave/algorithms/blob/main/41/index.js) - [2024.05.02]
 - **40.** [외계어 사전 (programmers)](https://github.com/logswave/algorithms/blob/main/40/index.js) - [2024.04.26]
 - **39.** [로그인 성공? (programmers)](https://github.com/logswave/algorithms/blob/main/39/index.js) - [2024.04.25]
